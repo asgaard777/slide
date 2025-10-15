@@ -12,6 +12,9 @@ const slides = [
   "./slides/image4.jpg",
 ];
 
+btnPrevious.disabled = true;
+btnPrevious.style.backgroundColor = 'grey';
+
 function setButtonStates(count) {
   if (count == slides.length - 1) {
     btnNext.disabled = true;
